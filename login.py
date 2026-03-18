@@ -1,8 +1,6 @@
 senha = "123456"
-resposta = int 
+resposta = input("Digite a senha:")
 
-resposta(int(input("Digite a senha: "))) == senha
-if senha == (senha):
+if resposta == senha:
     print("Acesso permitido")
-else:
-    print("Acesso negado")
+else:   print("Acesso negado")
