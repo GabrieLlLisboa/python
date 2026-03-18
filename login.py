@@ -1,6 +1,13 @@
-senha = "123456"
-resposta = input("Digite a senha:")
+senha = "oi"
+seja = "Seja bem vindo ao sistema de login"
 
-if resposta == senha:
-    print("Acesso permitido")
-else:   print("Acesso negado")
+while True:
+    seja = "Seja bem vindo ao sistema de login"
+    resposta = input("Digite a senha: ")
+
+    if resposta == senha:
+        print("Acesso Permitido")
+        print(seja)
+        break
+    else:
+        print("Senha Incorreta. Tente novamente.")
